@@ -5,10 +5,267 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aldana Pereyra</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="/styles/style.css">
+    <!-- Comienzo Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/phrase.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!-- Fin Styles -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/41afb21c79.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <main>
+        <!-- ##### Comienzo seccion Header ##### -->
+        <section class="nav-section-header">
+                <header>
+                        <nav class="nav-header">
+                            <ul class="nav-menu">
+                                <li class="list-item">
+                                    <a href="#about" class="about nav-link">HOLA</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#skills" class="skills nav-link">CONOCIMIENTOS</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#projects" class="projects nav-link">PROYECTOS</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#contact" class="nav-link selected">CONTACTO</a>
+                                </li>
+                            </ul>
+                        </nav>
+            </header>
+        </section>
+        <!-- ##### Fin seccion Header ##### -->
+        <!-- ##### Comienzo Seccion About ##### -->
+        <section class="section section-about" id="about">
+            <div class="column main-content">
+                <div class="info-about">
+                    <p class="regards name">Hola! Soy</p>
+                    <h1 class="name-about">Aldana Pereyra</h1>
+                    <p class="description-about">
+                        Desarrolladora Web y fan de la musica, videojuegos y pelis de los 80/90's.
+                    </p>
+                    <a href="#projects" class="button">LO QUE HAGO</a>
+                </div>
+                <img src="./assets/images/imagen-destacada.svg" alt class="about-img">
+            </div>
+        </section>
+        <!-- ##### Fin Seccion About ##### -->
+        <!-- ##### Comienzo Seccion Skills ##### -->
+        <section class="section section-skills" id="skills">
+            <div class="column content">
+                <h2 class="section-title">
+                    Mis conocimientos
+                </h2>
+                <p class="skills-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quia id, accusantium error aperiam facere suscipit corporis quam adipisci minus voluptates eos laborum cupiditate recusandae explicabo deserunt sequi possimus libero!
+                </p>
+                <div class="card skills-card">
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-html5"></i>
+                        <p class="skill-title">HTML 5</p>
+                    </div>
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-css3-alt"></i>
+                        <p class="skill-title">CSS 3</p>
+                    </div>
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-sass"></i>
+                        <p class="skill-title">Sass</p>
+                    </div>
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-js"></i>
+                        <p class="skill-title">JavaScript</p>
+                    </div>
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-react"></i>
+                        <p class="skill-title">React</p>
+                    </div>
+                    <div class="skill card-item">
+                        <i class="logo-item fab fa-git-alt"></i>
+                        <p class="skill-title">GIT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ##### Fin Seccion Skills ##### -->
+        <!-- ##### Comienzo Seccion Frase ##### -->
+        <section class="section phrase-section">
+            <div class="column content">
+                <i class="fas fa-quote-right"></i>
+                <blockquote>
+                    <p class="phrase">
+                        "No es mas inteligente quien va adelante, sino el que se atreve."
+                    </p>
+                </blockquote>
+                <h2 class="phrase-author">
+                    Robert Kiyosaki
+                </h2>
+            </div>
+        </section>
+        <!-- ##### Fin Seccion Frase ##### -->
+        <!-- ##### Comienzo Seccion Proyectos ##### -->
+        <section class="section section-projects" id="projects">
+            <div class="column">
+                <h2 class="section-title">
+                    Mis Proyectos
+                </h2>
+                <p class="projects-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quia id, accusantium error aperiam facere suscipit corporis quam adipisci minus voluptates eos laborum cupiditate recusandae explicabo deserunt sequi possimus libero!
+                </p>
+                <div class="card project-card">
+                    <div class="project card-item">
+                        <img src="./assets/images/portfolio.png" class="img-project" alt="Proyecto Portfolio">
+                        <p class="project-title">Portfolio</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/memes.svg" class="img-project" alt="Generador de Memes">
+                        <p class="project-title">Generador de Memes</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/match3.svg" class="img-project" alt="Match 3">
+                        <p class="project-title">Match 3</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/controlador-gastos.svg" class="img-project" alt="Controlador de Gastos">
+                        <p class="project-title">Controlador de Gastos</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/administrador-reuniones.svg" class="img-project" alt="Administrador de Reuniones">
+                        <p class="project-title">Administrador de Reuniones</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/todo-app.svg" class="img-project" alt="Todo App">
+                        <p class="project-title">Todo App</p>
+                    </div>
+                    <div class="project card-item">
+                        <img src="./assets/images/buscador-pelis.svg" class="img-project" alt="Buscador de Peliculas">
+                        <p class="project-title">Buscador de Peliculas</p>
+                    </div>
+            </div>
+        </section>
+        <!-- ##### Fin Seccion Proyectos ##### -->
+        <!-- ##### Comienzo Seccion Contacto ##### -->
+        <section class="section contact-section" id="contact">
+            <div class="column">
+                <div class="contact">
+                    <section class="contact-column">
+                        <h2 class="section-title">Contactame</h2>
+                        <p class="section-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eius consequuntur temporibus magni a, accusamus porro quas veniam, animi fuga, sunt quisquam cum iure hic. Totam, autem qui. Maxime, doloremque.
+                        </p>
+                        <section aria-label="Links de redes sociales">
+                            <ul class="contact-social-links">
+                                <li class="contact-social-item">
+                                    <a href class="contact-social-link twitter-link" aria-label="Twitter">
+                                        <i aria-hidden="true" class="fab fa-twitter contact-social-icon icon-item">
+                                        </i>
+                                        @Aldy
+                                    </a>
+                                </li>
+                                <li class="contact-social-item">
+                                    <a href class="contact-social-link twitter-link" aria-label="Twitter">
+                                        <i aria-hidden="true" class="fab fa-github-alt contact-social-icon icon-item">
+                                        </i>
+                                        AldyPereyra
+                                    </a>
+                                </li>
+                                <li class="contact-social-item">
+                                    <a href class="contact-social-link twitter-link" aria-label="Twitter">
+                                        <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon icon-item">
+                                        </i>
+                                        aldanapereyra
+                                    </a>
+                                </li>
+                                <li class="contact-social-item">
+                                    <a href class="contact-social-link twitter-link" aria-label="Twitter">
+                                        <i aria-hidden="true" class="fas fa-envelope contact-social-icon icon-item">
+                                        </i>
+                                        aldanapereyra
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <!-- ##### Formulario ##### -->
+                    <div class="contact-column">
+                            <h2 class="section-title">Escribime</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="input-name-wrapper">
+                    <div class="form-control">
+                        <label for="firstname">Nombre *</label>
+                        <input type="text" name="Nombre" id="firstname" class="input-firstname input-control" placeholder="p. ej.: Ada" aria-label="Nombre" required>
+                    </div>
+                    <div class="form-control">
+                            <label for="lastname">Apellido *</label>
+                            <input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="p. ej.: Lovelace" aria-label="Apellido" required>
+                    </div>
+                </div>
+                    <div class="form-control">
+                            <label for="email">Email *</label>
+                            <input type="email" name="Email" id="email" class="input-control" placeholder="p. ej.: ada.lovelace@gmail.com" aria-label="Email" required>
+                    </div>
+                    <div class="form-control">
+                            <label for="message">Mensaje *</label>
+                            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aqui" aria-label="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-send-btn button">Enviar</button>  
+            </form>
+                    </div>
+                    <!-- ##### Fin Formulario ##### -->
+                </div>
+            </div>
+        </section>
+        <!-- ##### Comienzo Footer ##### -->
+        <footer>
+        <nav class="footer-nav">
+           <ul class="footer-nav-menu">
+               <li class="footer-nav-item">
+                   <a href="#about" class="footer-nav-link">HOLA</a>
+               </li>
+               <li class="footer-nav-item">
+                    <a href="#skills" class="footer-nav-link">CONOCIMIENTOS</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#projects" class="footer-nav-link">PROYECTOS</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#contact" class="footer-nav-link">CONTACTO</a>
+                </li>
+           </ul> 
+        </nav>
+        <ul class="footer-social-links">
+            <li class="footer-social-item">
+                <a href class="footer-social-link twitter-link" aria-label="Twitter">
+                    <i class="fab fa-twitter footer-social-icon icon-footer"></i>
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href class="footer-social-link github-link" aria-label="Github">
+                    <i class="fab fa-github-alt footer-social-icon icon-footer"></i>
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href class="footer-social-link linkedin-link" aria-label="Linkedin">
+                    <i class="fab fa-linkedin-in footer-social-icon icon-footer"></i>
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href class="footer-social-link email-link" aria-label="Email">
+                    <i class="fas fa-envelope footer-social-icon icon-footer"></i>
+                </a>
+            </li>
+        </ul>
+         Hecho con ❤️ por Aldy 
+    </footer>
+    <!-- ##### Fin Footer ##### -->
+</main>
 </body>
 </html>
